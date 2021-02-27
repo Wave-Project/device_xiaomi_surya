@@ -16,6 +16,16 @@
      limitations under the License.
 -->
 <resources>
+         <!-- POCO X3 specific settings -->
+    <string name="device_specific_settings_title">Настройки устройства</string>
+    <string name="device_specific_settings_summary">Настройка частоты обновления экрана</string>
+    <string name="device_refresh_rate">ЧАСТОТА ОБНОВЛЕНИЯ ЭКРАНА</string>
+    <string name="device_min_refresh_rate">Минимальная частота обновления</string>
+    <string name="device_power_save_refresh_rate">Частота обновления в режиме энергосбереэения</string>
+    <string name="device_power_save_refresh_rate_switch">Автоматически понижать частоту обновления, когда активна функция экономии заряда аккумулятора</string>
+    <string name="msg_device_need_restart">Пожалуйста, перезагрузите устройство, чтобы изменения вступили в силу.</string>
+    <string name="refresh_rate_tile_title">Частота обновления</string>
+    <string name="refresh_rate_tile_disabled">Режим энергосбережения включен</string>
     <!-- Dirac settings -->
     <string name="dirac_title">Улучшение звука Mi</string>
     <string name="dirac_summary">Улучшить качество звука</string>
@@ -58,4 +68,26 @@
     <string name="dirac_preset_metal">Металл</string>
      <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Dirac звук</string>
-</resources>
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Температурные профили и игровой режим</string>
+    <string name="thermal_summary">Настройте тепловые профили и профили сенсорного экрана для каждого приложения для оптимальной производительности</string>
+    <string name="thermal_default">По умолчанию</string>
+    <string name="thermal_benchmark">Бенчмарк</string>
+    <string name="thermal_camera">Камера</string>
+    <string name="thermal_dialer">Звонки</string>
+    <string name="thermal_gaming">Игры</string>
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Очистка динамика</string>
+    <string name="clear_speaker_summary">Воспроизвести 30-и секундный звук для очистки динамика</string>
+    <string name="clear_speaker_description">Включите этот параметр 1-2 раз, если динамик немного загрязнен. Также поставьте звук на максимальную громкость.\n\nЕсли динамик сильно загрязнен, запустите этот параметр 2-5 раз и потрясите телефон. Динамик должен смотреть вниз.</string>
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">Сенсорное управление</string>
+    <string name="touch_game_mode_title">Включить игровой режим</string>
+    <string name="touch_game_mode_summary">Активируйте ручное управление функциями сенсорного экрана для лучшего игрового процесса</string>
+    <string name="touch_response_title">Отклик сенсора экрана</string>
+    <string name="touch_response_summary">Управление сенсорным откликом</string>
+    <string name="touch_sensitivity_title">Сенсорная чувствительность</string>
+    <string name="touch_sensitivity_summary">Управление чувствительностью к касанию для повторяющихся нажатий</string>
+    <string name="touch_resistant_title">Сенсорная зона</string>
+    <string name="touch_resistant_summary">Уменьшите чувствительность к касанию по краям, чтобы не запускать сенсорное управление</string>
+    </resources>
